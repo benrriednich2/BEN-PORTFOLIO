@@ -1,0 +1,168 @@
+
+/* ABOUT SECTION */
+
+.section {
+  padding: 100px 10%;
+  background: #0c111b;
+  border-top: 1px solid #172033;
+}
+
+.sectionTitle {
+  color: #fff;
+  font-size: clamp(32px, 4vw, 45px);
+  margin-bottom: 25px;
+}
+
+.sectionTitle span {
+  color: #3b82f6;
+}
+
+.aboutContent {
+  max-width: 800px;
+}
+
+.aboutContent p {
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 75px 7%;
+  }
+}
+
+/* PERSONAL INFORMATION */
+
+.aboutDetails {
+  margin-top: 55px;
+}
+
+.aboutSubtitle {
+  color: #ffffff;
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+
+.aboutSubtitle span {
+  color: #3b82f6;
+}
+
+.aboutInfoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.aboutInfoCard {
+  padding: 22px;
+  background: #111b2b;
+  border: 1px solid #23334d;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.aboutInfoCard:hover {
+  border-color: #3b82f6;
+  transform: translateY(-4px);
+}
+
+.aboutInfoCard span {
+  display: block;
+  color: #64748b;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.aboutInfoCard p {
+  color: #dbeafe;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* EDUCATION */
+
+.educationSection {
+  margin-top: 55px;
+}
+
+.educationCard {
+  padding: 28px;
+  background: #111b2b;
+  border: 1px solid #23334d;
+  border-left: 4px solid #3b82f6;
+  border-radius: 10px;
+}
+
+.educationLevel {
+  color: #60a5fa;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.educationCard h4 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.educationDescription {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.educationYear {
+  color: #64748b;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .aboutInfoGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* EDUCATION HORIZONTAL LAYOUT */
+
+.educationSection {
+  margin-top: 55px;
+}
+
+.educationSection .educationCards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.educationCard {
+  height: 100%;
+  padding: 25px;
+  background: #111b2b;
+  border: 1px solid #23334d;
+  border-left: 4px solid #3b82f6;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.educationCard:hover {
+  border-color: #3b82f6;
+  transform: translateY(-5px);
+}
+
+@media (max-width: 900px) {
+  .educationSection .educationCards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .educationSection .educationCards {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,14 @@
+
+/* FOOTER */
+
+.footer {
+  padding: 25px 10%;
+  text-align: center;
+  background: #080b12;
+  border-top: 1px solid #1c2638;
+}
+
+.footer p {
+  color: #64748b;
+  font-size: 13px;
+}
